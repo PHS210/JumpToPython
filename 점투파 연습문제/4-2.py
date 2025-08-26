@@ -6,3 +6,6 @@ def avg_number(*args):
 
 avg_number(1, 2)
 avg_number(1,2,3,4,5)
+
+# Re
+# args가 뭐더라...

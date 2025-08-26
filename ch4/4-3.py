@@ -1,7 +1,5 @@
-f = open("ch4/새파일.txt", 'r')
-while True:
-    line = f.readline()
-    if not line: break
-    print(line, end='')
-    print(type(line))
-f.close()
+def up(*args):
+    for i in args:
+        print(i.upper(), end=' ')
+
+up('hello', 'world', 'haha')
