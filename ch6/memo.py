@@ -12,10 +12,10 @@ if option == '-a':
         f.write(memo)
         f.write('\n')
 elif option == '-v':
-    with open('memo.txt', 'r') as f:
+    with open('memo.txt') as f:
         memo = f.read()
         print(memo)
-
+# open() 함수 모드 지정안하면 r이 디폴트임
 
 
 
